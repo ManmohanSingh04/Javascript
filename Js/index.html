@@ -1,0 +1,133 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Simple synchronous JavaScript example</h1>
+    <button>Click me</button>
+    <script>
+        const btn = document.querySelector('button');
+        btn.addEventListener('click', () => {
+            let myDate;
+            for (let i = 0; i < 10000000; i++) {
+                let date = new Date();
+                myDate = date
+            }
+
+            console.log(myDate);
+
+            let pElem = document.createElement('p');
+            pElem.textContent = 'This is a newly-added paragraph.';
+            document.body.appendChild(pElem);
+        });
+    </script>
+    
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <style>
+      html {
+        font-size: 20px;
+        font-weight: 300;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      header {
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      p {
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid #999;
+      }
+      #box {
+        background-color: cornflowerblue;
+        width: 1rem;
+        height: 1rem;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- <header>
+      <h1>Request Animation Frame</h1>
+    </header>
+    <main>
+      <p id="output"></p>
+      <p id="box"></p>
+    </main> -->
+
+    <p class="clock"></p>
+    <script>
+    //      function abc(){
+    //     let date=new Date();
+    //     let time=date.toLocaleDateString();
+    //     document.querySelector('.clock').textContent=time;
+    // }
+
+    // abc();
+    // const createClock = setInterval(abc,1000);
+    
+    //   let output = document.getElementById('output');
+    //   let box = document.getElementById('box');
+    //   let number = 0;
+    //   let xpos = 0;
+    //   function paint() {
+    //     number++;
+    //     output.textContent = number;
+
+    //     if (number < 300) {
+    //       requestAnimationFrame(paint);
+    //     }
+    //   }
+
+    //   function move(timmy) {
+    //     if (timmy) {
+    //       let diff = timmy - number;
+    //       console.log('frame', diff);
+    //       number = timmy; //highResTimeStamp
+    //     }
+    //     xpos = xpos + 5;
+    //     box.style.transform = `translateX(${xpos}px)`;
+    //     let ww = document.body.clientWidth - 100;
+    //     if (xpos < ww) {
+    //       requestAnimationFrame(move);
+    //     }
+    //   }
+
+    //   window.requestAnimationFrame(move);
+
+    
+
+//     fetch("https://www.who.int/publications/m/item/weekly-operational-update-on-covid-19---28-june-2021")
+// .then((apidata)=>{
+//     console.log(apidata);
+// return apidata.json;
+   
+
+// }).then((actualdata)=>{
+//   const data=actualdata.;
+
+// document.getElementsByClassName('clock').innerHTML=data;
+// }).
+// catch((error)=>{
+//     console.log(error);
+// })
+
+   
+
+    </script>
+  </body>
+</html> 
